@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 body{ 
     background-color: #2C313F;
@@ -21,6 +24,14 @@ h1{
 h2{
     font-size: 32px;
     color: #E9EBF1;
+}
+
+h3{
+    font-size: 24px;
+    color:#E9EBF1;
+    margin: 0 10px 20px 10px;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 p, a{
@@ -142,18 +153,19 @@ main{
 
 .project-card{
     width: 450px;
-    height: 500px;
     background-color:#191E28;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 0;
 }
 
 .project-card img{
     width: 400px;
     height: 300px;
-    object-fit: contain; 
+    object-fit: contain;
+    filter: brightness(85%); 
 }
 
 .project-card a{
@@ -171,3 +183,154 @@ main{
 .project-card a:hover{
     background-color: transparent;
 }
+
+/* Responsive styles */
+
+@media(max-width: 1399px){
+    .about-contact{
+        justify-content: center;
+    }
+
+    .about, .contact{
+        width: 575px;
+    }
+
+    .about{
+        margin-right: 10px;
+    }
+
+    .about p {
+        max-width: 400px;
+    }
+
+    .contact{
+        margin-left: 10px;
+    }
+
+    .contact-info{
+        width: 400px;
+    }
+
+    .my-projects{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .project-card{
+        width: 380px;
+    }
+
+    .project-card img{
+        width: 300px;
+    }
+}
+
+
+@media(max-width: 1050px){
+    .project-card img{
+        width: 250px;
+    }
+}
+
+
+@media(max-width: 950px){
+    .about-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 900px){
+    .my-projects{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card img{
+        width: 300px;
+    }
+}
+
+@media(max-width: 650px){
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    header{
+        padding: 20px;
+        height: auto;
+    }
+
+.header-content{
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+nav{
+    flex-direction: column;
+}
+
+nav a{
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+    .about, .contact{
+        width: 375px;
+        margin: 20px 0;
+    }
+
+
+    .about p {
+        max-width: 300px;
+    }
+
+    .contact a{
+        margin: 20px 0;;
+    }
+
+    .contact-info{
+        width: 300px;
+    }
+}
+
+
+@media(max-width: 450px){
+    .about, .contact{
+        width: 240px;
+        padding: 20px;
+        height: auto;
+    }
+
+
+    .about p {
+        max-width: 200px;
+    }
+
+    .contact a{
+        text-align: center;
+    }
+
+    .contact-info{
+        width: 250px;
+    }
+
+    .project-card{
+        width: 275px;
+    }
+
+    .project-card img{
+        width: 250px;
+    }
+}
+
+
