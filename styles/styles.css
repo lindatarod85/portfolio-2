@@ -246,6 +246,10 @@ main{
         align-items: center;
     }
 
+    .project-card{
+        padding: 0 0 40px 0;
+    }
+
     .project-card img{
         width: 300px;
     }
