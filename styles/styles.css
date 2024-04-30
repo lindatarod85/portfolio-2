@@ -53,6 +53,11 @@ nav a{
     background-color: #191E28;
     text-decoration: none;
     font-size: 16px;
+    border: 3px solid #191E28;
+}
+
+nav a:hover{
+    background-color: transparent;
 }
 
 footer{
@@ -148,8 +153,7 @@ main{
 .project-card img{
     width: 400px;
     height: 300px;
-    object-fit: contain;
-    
+    object-fit: contain; 
 }
 
 .project-card a{
@@ -160,5 +164,10 @@ main{
     margin: 20px;
     background-color: #0037FF;
     border-radius: 10px;
+    border: 3px solid #0037FF;
     padding: 10px 25px;
+}
+
+.project-card a:hover{
+    background-color: transparent;
 }
