@@ -168,6 +168,11 @@ main{
     filter: brightness(85%); 
 }
 
+.project-card p{
+    text-align: center;
+    padding: 30px;
+}
+
 .project-card a{
     text-decoration: none;
     display: block;
