@@ -81,8 +81,18 @@ footer {
   height: 50px;
 }
 
-footer p {
+footer p,
+a {
   font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 .logo {
@@ -340,5 +350,9 @@ main {
 
   .project-card img {
     width: 250px;
+  }
+
+  footer p {
+    text-align: center;
   }
 }
