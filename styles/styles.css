@@ -267,6 +267,15 @@ main{
     .project-card img{
         width: 300px;
     }
+
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .footer-content p{
+        margin-bottom: 25px;
+        text-align: center;
+    }
 }
 
 @media(max-width: 650px){
