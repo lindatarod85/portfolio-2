@@ -86,6 +86,10 @@ a {
   font-size: 16px;
 }
 
+footer p {
+  padding: 0 20px;
+}
+
 footer a {
   text-decoration: none;
 }
