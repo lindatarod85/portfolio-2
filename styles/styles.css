@@ -82,7 +82,7 @@ footer {
 }
 
 footer p,
-a {
+footer a {
   font-size: 16px;
 }
 
@@ -339,10 +339,15 @@ main {
 
   .about p {
     max-width: 200px;
+    font-size: 16px;
   }
 
   .contact a {
     text-align: center;
+  }
+
+  p, a{
+      font-size: 16px;
   }
 
   .contact-info {
