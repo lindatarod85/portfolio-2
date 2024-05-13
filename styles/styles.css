@@ -346,8 +346,9 @@ main {
     text-align: center;
   }
 
-  p, a{
-      font-size: 16px;
+  p,
+  a {
+    font-size: 16px;
   }
 
   .contact-info {
