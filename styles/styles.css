@@ -327,6 +327,9 @@ main {
   .contact-info {
     width: 300px;
   }
+  .projects-heading {
+    margin: 40px 0;
+  }
 }
 
 @media (max-width: 450px) {
